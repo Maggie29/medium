@@ -22,12 +22,18 @@ window.addEventListener("load", function(event) {
   imgCoders.src = "assets/img/coders.jpg"
   divImage.appendChild(imgCoders);
 
+  var divTwitter = document.createElement("div");
   var spanTwitter = document.createElement("span");
+  divTwitter.className = "div-icon";
   spanTwitter.classList.add("icon-twitter-with-circle");
-  divIcon.appendChild(spanTwitter);
-  var spanFacebook = document.createElement("span");
-  spanFacebook.classList.add("icon-facebook-with-circle");
-  divIcon.appendChild(spanFacebook);
+  divIcon.appendChild(divTwitter);
+  divTwitter.appendChild(spanTwitter);
 
+  var divFacebook = document.createElement("div");
+  var spanFacebook = document.createElement("span");
+  divFacebook.className = "div-icon";
+  spanFacebook.classList.add("icon-facebook-with-circle");
+  divIcon.appendChild(divFacebook);
+  divFacebook.appendChild(spanFacebook);
 
 });
