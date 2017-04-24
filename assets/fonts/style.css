@@ -26,8 +26,11 @@
 
 .icon-facebook-with-circle:before {
   content: "\e900";
+  font-size: 30px;
+  color: #333333;
 }
 .icon-twitter-with-circle:before {
   content: "\e901";
+  font-size: 30px;
+  color: #333333;
 }
-

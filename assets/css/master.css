@@ -1,17 +1,44 @@
 *{
   font-family: "Garamond";
 }
+.container{
+  position: relative;
+  left: 450px;
+  right: 450px;
+}
 .image{
   display: inline-block;
 }
 .icon{
   display: inline-block;
   position: absolute;
-  top: 25px;
+  top: 12px;
   left: 250px;
 }
 .div-icon{
   display: inline-block;
   margin-right: 15px;
   height: 35px;
+}
+.sign{
+  display: inline-block;
+  float: right;
+  color: #50b087;
+  font-size: 1.2em;
+  padding-top: 15px;
+  margin-right: 450px;
+}
+section{
+  position: relative;
+  left: 600px;
+  right: 600px;
+  top: 50px;
+}
+.div-writer{
+  width: 70px;
+  background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+
 }
