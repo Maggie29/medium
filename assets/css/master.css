@@ -1,0 +1,10 @@
+*{
+  font-family: "Garamond";
+}
+.image{
+  display: inline-block;
+}
+.icon{
+  display: inline-block;
+  left: 250px;
+}
